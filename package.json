@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^0.26.0",
+    "style-loader": "^0.13.1",
     "vue": "^1.0.18",
     "vue-loader": "^1.1.0",
     "webpack": "^1.13.3",
