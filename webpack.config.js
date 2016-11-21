@@ -13,7 +13,9 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: "vue-loader"
-      }
+      },
+       { test: /\.css$/, exclude: /\.useable\.css$/, loader: "style-loader!css-loader" },
+      { test: /\.useable\.css$/, loader: "style-loader/useable!css-loader" }
     ]
   },
    devServer: {
